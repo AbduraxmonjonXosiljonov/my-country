@@ -19,7 +19,9 @@ const showContent = (countries) => {
         countryDiv.classList.add('country')
         countryDiv.innerHTML =`
         <a href="#">
+                    
                         <img src=${countri.flags.png} alt="" height="160" width="260">
+                    
                     <h4>
                         ${countri.name.common}
                     </h4>
